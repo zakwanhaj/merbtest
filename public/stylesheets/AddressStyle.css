@@ -1,0 +1,374 @@
+﻿.RedBG{
+	background-image:url('../images/Address/RedBG.gif');
+	background-repeat:repeat-x;
+	height:22px;
+	width:100%;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.RedBord{
+    border-bottom:1px #c82026 solid;
+    border-left:1px #c82026 solid;
+    border-right:1px #c82026 solid;;
+}
+.RedBord2{
+    border:1px #c82026 solid;
+}
+.space2{
+	width:16px;
+	height:90%;
+}
+.RedH{
+	height:533px;
+
+}
+.RedH2{
+	height:516px;
+
+}
+.RedRightLBox{
+	font-size:10px;
+	width:247px;
+	text-align:right;
+}
+.RedMBox{
+	font-size:12px;
+	width:422px;
+	text-align:right;
+}
+.SmallRBH{
+	height:25px;
+}
+.RedMDivH{
+	height:571px;
+}
+.RedRGroupBox{
+	height:33px;
+	border-bottom:1px #cdcdcd solid;
+}
+.RedLGroupBox{
+	height:25px;
+	color:#a90006;
+	font-size:13px;
+}
+
+.RedRGroupMBox{
+	height:65px;
+	border-bottom:1px #cdcdcd solid;
+}
+.RedLBox{
+	height:65px;
+}
+
+.NumFormat{
+	color:#eeeeee;
+	font-weight:normal;
+}
+.avatarStyle{
+	width:40px;
+	height:40px;
+	background-color:gray;
+}
+.avatarStyle2{
+	width:50px;
+	height:50px;
+	background-color:maroon;
+}
+.inputStyle{
+	width:310px;
+	height:15px;
+	color:#747474;
+	font-weight:normal;
+}
+.RedNameColor{
+	color:#c82026;
+}
+.upPadding1{
+	padding-top:10px;
+}
+.NameInStyle{
+	width:150px;
+	height:22px;
+	font-size:13px;
+	font-weight:normal;
+}
+.NameInStyle2{
+	width:210px;
+	height:22px;
+	font-size:13px;
+	font-weight:normal;
+}
+.NameInStyle3{
+	width:217px;
+	height:22px;
+	font-size:13px;
+	font-weight:normal;
+}
+.grayBord{
+	border:1px #d7d7d7 solid;
+}
+.H1
+{
+	height:23px;
+
+}
+.IntW{
+	width:488px;
+}
+.H2{
+	height:3px;
+}
+.TextAreaStyle{
+	height:165px;
+	color:#747474;
+	font-weight:normal;
+}
+.w1{
+	width:48px;
+    padding-top:3px;
+}
+.w2{
+	width:77px;
+    padding-top:3px;
+}
+
+.h3{
+	height:179px;
+	border-top:1px #3bb001 solid;
+
+}
+.boxS{
+	width:146px;
+}
+.h4{
+	height:133px;
+}
+.paddingD{
+	padding-right:30px;
+	padding-top:3px;
+}
+.bannerSpace{
+	width:250px;
+	
+}
+
+.RedM{
+  text-decoration: none;
+  color:#930106;
+  text-decoration:none;
+  font-size:12px;
+
+}
+.Space4{
+	width:43px;
+}
+.MenuItemPaddingL{
+	padding-top:10px;
+	padding-left:10px;
+	
+}
+#editBTN{
+	background-image:url('../images/Address/Edit.gif');
+	background-repeat:no-repeat;
+	background-position:right;
+	display:block;
+	height:14px;
+	width:14px;
+}
+#emailBTN{
+	background-image:url('../images/Address/Mail1.gif');
+	background-repeat:no-repeat;
+	background-position:right;
+	display:block;
+	height:11px;
+	width:21px;
+}
+#deleteBTN{
+	background-image:url('../images/Address/Close.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	display:block;
+	height:10px;
+	width:10px;
+}
+
+.BoxMenu4{
+	width:50px;
+}
+.RedBar{
+	color:#c82026;
+    font-size:10px;
+
+}
+.RedFont{
+  color:#930106;
+  font-size:11px;
+}
+.GrayFont{
+  color:#717171;
+  font-size:11px;
+}
+.blackFont{
+	color:black;
+}
+
+.H6{
+	height:66px;
+}
+.ContactD{
+	height:465px;
+}
+.AlphaText{
+  color:#000000;
+  font-size:12px;
+  font-weight:bold;
+	
+}
+.W22{
+	width:83px;
+}
+a:link.RedMenu{
+  text-decoration: none;
+  color:#930106;
+  text-decoration:none;
+  font-size:12px;
+
+  }
+
+a:visited.RedMenu{
+  text-decoration: none;
+  color:#930106;
+  text-decoration:none;
+  font-size:12px;
+
+  }
+
+a:hover.RedMenu{
+  color:#930106;
+  text-decoration:underline;
+  font-size:12px;
+
+
+}
+a:link.RedSelect{
+  text-decoration: none;
+  color:#c82026;
+  font-size:10px;
+  text-decoration:none;
+
+  }
+
+a:visited.RedSelect{
+  text-decoration: none;
+  color:#c82026;
+  font-size:10px;
+  text-decoration:none;
+
+  }
+
+a:hover.RedSelect{
+  color:#c82026;
+  font-size:10px;
+  text-decoration:underline;
+}
+a:hover.GrayLinkOff{
+  text-decoration: none;
+  color:#aeaeae;
+  font-size:10px;
+  text-decoration:none;
+  cursor:default;
+}
+
+a:link.GrayLinkOff{
+  text-decoration: none;
+  color:#aeaeae;
+  font-size:10px;
+  text-decoration:none;
+  cursor:default;
+}
+
+a:visited.GrayLinkOff{
+  text-decoration: none;
+  color:#aeaeae;
+  font-size:10px;
+  text-decoration:none;
+  cursor:default;
+}
+
+a:link.BlackLinkOn{
+  text-decoration: none;
+  color:#000000;
+  font-size:10px;
+  text-decoration:none;
+}
+
+a:visited.BlackLinkOn{
+  text-decoration: none;
+  color:#000000;
+  font-size:10px;
+  text-decoration:none;
+}
+
+a:hover.BlackLinkOn{
+  color:#000000;
+  font-size:10px;
+  text-decoration:underline;
+}
+
+a:link.RedLink{
+  background-image:url('../images/Address/RedBG.gif');
+  background-repeat:repeat-x;
+  border:1px #cb2f35 solid;
+  text-align:center;
+  display: block;
+  height:19px;
+  text-decoration: none;
+  color:#ffffff;
+  }
+
+a:visited.RedLink{
+  background-image:url('../images/Address/RedBG.gif');
+  background-repeat:repeat-x;
+  border:1px #cb2f35 solid;
+  text-align:center;
+  display: block;
+  height:19px;
+  text-decoration: none;
+  color:#ffffff;
+  }
+
+a:hover.RedLink{
+   background-image:url('../images/Address/YalBG.gif');
+  background-repeat:repeat-x;
+  border:1px #e9ad2a solid;
+  display: block;
+  text-align:center;
+  height:19px;
+  color:#000000;
+  text-decoration: none;
+
+}
+a:link.AlghaLink{
+  text-decoration: none;
+  color:#418dff;
+  font-size:12px;
+  font-weight:bold;
+  text-decoration:none;
+
+  }
+
+a:visited.AlghaLink{
+  text-decoration: none;
+  color:#418dff;
+  font-size:12px;
+  font-weight:bold;
+  text-decoration:none;
+
+  }
+
+a:hover.AlghaLink{
+  color:#000000;
+  font-size:12px;
+  font-weight:bold;
+  text-decoration:none;
+}

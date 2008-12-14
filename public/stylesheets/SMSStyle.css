@@ -1,0 +1,268 @@
+﻿.GreenBG{
+	background-image:url('../images/SMS/GreenBG.gif');
+	background-repeat:repeat-x;
+	height:22px;
+	width:100%;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.GreenBord{
+    border-bottom:1px #3bb001 solid;
+    border-left:1px #3bb001 solid;
+    border-right:1px #3bb001 solid;;
+}
+.GreenBord2{
+    border:1px #3bb001 solid;
+}
+.space2{
+	width:16px;
+	height:90%;
+}
+.BlackBar{
+	color:#000000;
+    font-size:10px;
+
+}
+.SMSSend{
+	background-image:url('../images/SMS/smsSend.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+	height:100%;
+	width:18px;
+}
+.SMSChangeNo{
+	background-image:url('../images/SMS/smsChangeNo.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+	height:100%;
+	width:18px;
+}
+.SMSSent{
+	background-image:url('../images/SMS/smsSent.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+	height:100%;
+	width:18px;
+}
+.SMSScheduled{
+	background-image:url('../images/SMS/smsScheduled.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+	height:100%;
+	width:18px;
+}
+.smsMainBox{
+	width:519px;
+	font-size:12px;
+	text-align:right;
+}
+.NumFormat{
+	color:#eeeeee;
+	font-weight:normal;
+}
+.smsH{
+	height:348px;
+}
+.smsGW{
+	width:490px;
+}
+.smsFont{
+    width:60px;
+	color:#010101;
+	font-weight:bold;
+	font-size:10px;
+	text-align:left;
+	padding-top:4px;
+}
+.smsFontChane{
+    width:120px;
+	color:#010101;
+	font-weight:bold;
+	font-size:10px;
+	text-align:left;
+	padding-top:4px;
+}
+.inputStyle{
+	width:420px;
+	height:23px;
+	color:#747474;
+	font-weight:normal;
+}
+.inputStyleChange{
+	width:360px;
+	height:23px;
+	color:#747474;
+	font-weight:normal;
+}
+.inputSearch{
+	height:15px;
+	width:360px;
+	color:#747474;
+	font-weight:normal;
+
+}
+.grayBord{
+	border:1px #d7d7d7 solid;
+}
+.H1
+{
+	height:23px;
+
+}
+.IntW{
+	width:488px;
+}
+.H2{
+	height:3px;
+}
+.TextAreaStyle{
+	height:196px;
+	color:#747474;
+	font-weight:normal;
+	background-color:#f4f4f4;
+}
+.w1{
+	width:48px;
+    padding-top:3px;
+}
+.w2{
+	width:77px;
+    padding-top:3px;
+}
+
+.h3{
+	height:179px;
+	border-top:1px #3bb001 solid;
+
+}
+.h33{
+	height:179px;
+}
+.hSent{
+	height:511px;
+}
+.hSent2{
+	height:430px;
+}
+.TimeBox{
+	width:100px;
+	height:28px;
+	border: 1px #d9d9d9 solid;
+	padding:15px 20px 15px 20px;
+	color:#747474;
+	font-size:11px;
+}
+.CalBox{
+	width:218px;
+	height:163px;
+}
+.boxS{
+	width:146px;
+}
+.h4{
+	height:133px;
+}
+.paddingD{
+	padding-right:30px;
+	padding-top:3px;
+}
+.bannerSpace{
+	width:250px;
+	
+}
+.GreenLBox{
+	font-size:10px;
+	width:247px;
+	text-align:right;
+}
+
+.GreenM{
+  text-decoration: none;
+  color:#308d02;
+  text-decoration:none;
+  font-size:12px;
+
+}
+.NumberW{
+	width:115px;
+}
+.DateW{
+	width:80px;
+}
+.MSGW{
+	width:210px;
+}
+.MSGW2{
+	width:270px;
+}
+.StatusW{
+	width:58px;
+}
+.MSGBox{
+	height:60px;
+	color:#4c4c4c;
+	font-size:11px;
+}
+.msgPaddingUp{
+	padding-top:10px;
+}
+.msgPaddingR{
+	padding-right:10px;
+}
+.msgPaddingL{
+	padding-left:20px;
+}
+
+a:visited.GreenMenu, a:link.GreenMenu{
+  text-decoration: none;
+  color:#308d02;
+  text-decoration:none;
+  font-size:12px;
+
+  }
+
+a:hover.GreenMenu{
+  color:#308d02;
+  text-decoration:underline;
+  	font-size:12px;
+
+
+}
+a:visited.MSGLink, a:link.MSGLink{
+  text-decoration: none;
+  color:#4c4c4c;
+  text-decoration:none;
+  font-size:11px;
+
+  }
+
+a:hover.MSGLink{
+  color:#8b8b8b;
+  text-decoration:none;
+  font-size:11px;
+
+
+}
+
+a:visited.GreenLink, a:link.GreenLink{
+  background-image:url('../images/SMS/GreenBG.gif');
+  background-repeat:repeat-x;
+  border:1px #3bb001 solid;
+  text-align:center;
+  display: block;
+  height:19px;
+  color:#ffffff;
+  text-decoration:none;
+  }
+
+a:hover.GreenLink{
+   background-image:url('../images/SMS/GrayBG.gif');
+  background-repeat:repeat-x;
+  border:1px #c5c5c5 solid;
+  display: block;
+  text-align:center;
+  height:19px;
+  color:#000000;
+  text-decoration:none;
+
+}

@@ -1,0 +1,264 @@
+﻿html{
+	direction:rtl;
+}
+body { 
+    margin : 0px;
+    font-size:1px;
+    font-family: Tahoma;
+    background-color:#ffffff;
+
+}
+body  
+{ 
+
+   text-align: center; 
+}
+
+*{margin:0; padding:0} 
+
+DIV{
+   margin:0;
+   padding:0;
+   }
+
+img{
+	border:0px;
+}
+.autoMargin{
+  margin-left: auto;
+  margin-right: auto;
+}
+.MainDiv{
+	width:938px;
+}
+.HeaderDiv1{
+	height:39px;
+	
+}
+.downBox{
+	height:25px;
+}
+#LogoD1G{
+	background-image:url('../images/D1GLogo.gif');
+	background-repeat:no-repeat;
+ 	display: block;
+ 	width:162px;
+
+}
+#magnBTN{
+	background-image:url('../images/Magnifier.gif');
+	background-repeat:no-repeat;
+	background-position:left;
+	display:block;
+	height:16px;
+	width:21px;
+}
+.DotLine{
+	background-image:url('../images/UpperDots.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+ 	width:23px;
+
+}
+.FL{
+	float:left;
+}
+.FR{
+	float:right;
+}
+.ClearDiv{
+	clear:both;
+}
+.topPadding{
+	  padding-top:12px;
+
+}
+.BPadding{
+	  padding-bottom:12px;
+
+}
+
+.MenuBob{
+	background-image:url('../images/MenuBG.gif');
+	background-repeat:repeat-x;
+	background-position:left bottom;
+
+}
+.MenuBord{
+	background-image:url('../images/MenuBorder.gif');
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	width:1px;
+}
+.MenuSpace1{
+	width:33px;
+}
+.MenuH{
+	height:32px;
+}
+.valignM{
+	vertical-align: middle;
+}
+.itemW{
+	width:175px;
+	text-align:right;
+}
+.itemW2{
+	width:195px;
+	text-align:right;
+}
+
+.space1{
+	height:5px;
+}
+.mDivH{
+	height:539px;
+}
+.RightBox{
+	font-size:12px;
+	width:147px;
+	text-align:right;
+}
+.titlePadding{
+	padding-top:2px;
+	padding-right:10px;
+}
+.padding5L{
+	padding-left:5px;
+}
+.padding5R{
+	padding-right:5px;
+}
+.H5{
+	height:503px;
+}
+.H6{
+	height:480px;
+}
+.paddingT{
+	padding-top:2px;
+
+}
+.paddingTop2{
+	padding-top:3px;
+}
+.RightMenuBox{
+	height:33px;
+	width:100%;
+	border-bottom:1px #cdcdcd solid;
+}
+
+.RightMenuBoxHelp{
+	height:33px;
+	width:100%;
+}
+
+.MenuItemPadding{
+	padding-top:10px;
+	padding-right:10px;
+	
+}
+.HelpIcon{
+	background-image:url('../images/HelpIcon.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+	height:100%;
+	width:18px;
+}
+.HelpBox{
+    padding-top:5px;
+	padding-right:10px;
+	vertical-align:middle;
+}
+.SpaceBetBox{
+	height:90%;
+	width:10px;
+}
+.SpaceBetBox1{
+	height:50px;
+	width:10px;
+}
+.fontZero{
+	font-size:1px;
+}
+.MenLink{
+  text-decoration: none;
+  color:#000000;
+  font-size:13px;
+  font-weight:normal;
+
+}
+.GrayBGLink{
+	background-color:#e3e3e3;
+}
+.WBGLink{
+	background-color:#ffffff;
+}
+.scrollBar{
+	overflow:auto;
+	
+}
+.bordDG{
+	border-bottom:1px #cdcdcd solid;
+}
+.bordDG2{
+	border-top:1px #cdcdcd solid;
+}
+.ArrowDescending{
+	background-image:url('../images/ArrowDescending.gif');
+	background-repeat:no-repeat;
+	background-position:left center;
+	display:block;
+	height:100%;
+	width:12px;
+}
+.ArrowAscending{
+	background-image:url('../images/ArrowAscending.gif');
+	background-repeat:no-repeat;
+	background-position:left center;
+	display:block;
+	height:100%;
+	width:12px;
+}
+.SpaceBetBox2{
+	height:10%;
+	width:10px;
+}
+
+a:link.MainMenu{
+  text-decoration: none;
+  color:#3979ab;
+  font-size:11px;
+  }
+
+a:visited.MainMenu{
+  text-decoration: none;
+  color:#3979ab;
+  font-size:11px;
+  }
+
+a:hover.MainMenu{
+  font-size:11px;
+  color:#3979ab;
+  text-decoration: underline;
+
+
+}
+a:link.MainMenuLinks{
+  text-decoration: none;
+  color:#939393;
+  font-size:13px;
+  font-weight:normal;
+  }
+a:visited.MainMenuLinks{
+  text-decoration: none;
+  color:#939393;
+  font-size:13px;
+  font-weight:normal;
+  }
+a:hover.MainMenuLinks{
+  text-decoration: none;
+  color:#000000;
+  font-size:13px;
+  font-weight:normal;
+  }

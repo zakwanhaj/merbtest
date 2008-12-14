@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>SMS</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/generalStyle.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/SMSStyle.css" />
+  </head>
+  <body>
+  <%=partial "header"%>
+    <div class="autoMargin space1 ClearDiv"></div>
+    <div class="autoMargin space1 ClearDiv"></div>
+    <div class="autoMargin MainDiv mDivH ClearDiv">
+      <%=partial "right_side_bar"%>
+      <div class="FR SpaceBetBox"></div>
+      <%= catch_content :for_layout %>
+      <%=partial "left_side_bar"%>
+    </div>
+    <div class="autoMargin space1 ClearDiv"></div>
+<div class="autoMargin space1 ClearDiv"></div>
+    <%=partial "footer"%>
+  </body>
+
+</html>

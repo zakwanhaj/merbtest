@@ -1,0 +1,357 @@
+﻿.BlueBG{
+	background-image:url('../images/Email/EmailBG.gif');
+	background-repeat:repeat-x;
+	height:22px;
+	width:100%;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.BlueBord{
+    border-bottom:1px #245e98 solid;
+    border-left:1px #245e98 solid;
+    border-right:1px #245e98 solid;;
+}
+.BlueBord2{
+    border:1px #245e98 solid;
+}
+.space2{
+	width:16px;
+	height:90%;
+}
+.BlackBar{
+	color:#000000;
+    font-size:10px;
+
+}
+.EmailInbox{
+	background-image:url('../images/Email/Inbox.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+	height:100%;
+	width:25px;
+}
+.EmailTrash{
+	background-image:url('../images/Email/Trash.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+	height:100%;
+	width:25px;
+}
+.EmailDraft{
+	background-image:url('../images/Email/Draft.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+	height:100%;
+	width:25px;
+}
+.EmailSent{
+	background-image:url('../images/Email/Sent.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+	height:100%;
+	width:25px;
+}
+.EmailSpan{
+	background-image:url('../images/Email/Span.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+	height:100%;
+	width:25px;
+}
+.EmailD1G{
+	background-image:url('../images/Email/D1GColt.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+	height:100%;
+	width:25px;
+}
+.EmailFolder{
+	background-image:url('../images/Email/Folder.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+	height:100%;
+	width:25px;
+}
+
+.smsMainBox{
+	width:778px;
+	font-size:12px;
+	text-align:right;
+}
+.NumFormat{
+	color:#eeeeee;
+	font-weight:normal;
+}
+.smsH{
+	height:348px;
+}
+.smsGW{
+	width:490px;
+}
+.smsFont{
+    width:60px;
+	color:#010101;
+	font-weight:bold;
+	font-size:10px;
+	text-align:left;
+	padding-top:4px;
+}
+.smsFontChane{
+    width:120px;
+	color:#010101;
+	font-weight:bold;
+	font-size:10px;
+	text-align:left;
+	padding-top:4px;
+}
+.inputStyle{
+	width:420px;
+	height:23px;
+	color:#747474;
+	font-weight:normal;
+}
+.inputStyleChange{
+	width:360px;
+	height:23px;
+	color:#747474;
+	font-weight:normal;
+}
+.inputSearch{
+	height:15px;
+	width:360px;
+	color:#747474;
+	font-weight:normal;
+
+}
+.grayBord{
+	border:1px #d7d7d7 solid;
+}
+.H1
+{
+	height:23px;
+
+}
+.IntW{
+	width:488px;
+}
+.H2{
+	height:3px;
+}
+.TextAreaStyle{
+	height:196px;
+	color:#747474;
+	font-weight:normal;
+	background-color:#f4f4f4;
+}
+.w1{
+	width:48px;
+    padding-top:3px;
+}
+.w2{
+	width:77px;
+    padding-top:3px;
+}
+
+.h3{
+	height:179px;
+	border-top:1px #245e98 solid;
+
+}
+.h33{
+	height:179px;
+}
+.hSent{
+	height:160px;
+}
+.hSent2{
+	height:138px;
+}
+.TimeBox{
+	width:100px;
+	height:28px;
+	border: 1px #d9d9d9 solid;
+	padding:15px 20px 15px 20px;
+	color:#747474;
+	font-size:11px;
+}
+.CalBox{
+	width:218px;
+	height:163px;
+}
+.boxS{
+	width:146px;
+}
+.h4{
+	height:133px;
+}
+.paddingD{
+	padding-right:30px;
+	padding-top:3px;
+}
+.bannerSpace{
+	width:250px;
+	
+}
+.GreenLBox{
+	font-size:10px;
+	width:247px;
+	text-align:right;
+}
+
+.GreenM{
+  text-decoration: none;
+  color:#3979ab;
+  text-decoration:none;
+  font-size:12px;
+
+}
+.ReadBoxH{
+	height:340px;
+}
+.DBoxH{
+	height:85px;
+	border-bottom:1px #3979ab solid;
+}
+.DBoxW{
+	width:750px;
+}
+.SubText{
+	font-size:10px;
+	color:#8a8a8a;
+	text-align:left;
+	font-weight:bold;
+	width:50px;
+}
+.SubB{
+	font-size:10px;
+	color:black;
+	text-align:right;
+	padding-right:5px;
+}
+.MashbakW{
+	width:30px;
+}
+.FlagW{
+	width:25px;
+}
+.MSGW{
+	width:210px;
+}
+.MSGW2{
+	width:360px;
+}
+.FromW{
+	width:170px;
+}
+.DateW{
+	width:95px;
+}
+.MSGBox{
+	height:25px;
+	color:#4c4c4c;
+	font-size:11px;
+}
+.Mashbak1Pic{
+	background-image:url('../images/Email/Mashbak.gif');
+	background-position:center center;
+	background-repeat:no-repeat;
+	height:100%;
+	display:block;
+}
+.Mashbak2Pic{
+	background-image:url('../images/Email/MashbakB.gif');
+	background-position:center center;
+	background-repeat:no-repeat;
+	height:20px;
+	display:block;
+}
+.Flag1Pic{
+	background-image:url('../images/Email/Flag1.gif');
+	background-position:right center;
+	background-repeat:no-repeat;
+	height:100%;
+	display:block;
+}
+.Flag2Pic{
+	background-image:url('../images/Email/Flag2.gif');
+	background-position:right center;
+	background-repeat:no-repeat;
+	height:20px;
+	display:block;
+}
+.MsnOpen{
+	background-image:url('../images/Email/MSGOpen.gif');
+	background-repeat:no-repeat;
+	background-position:right center;
+	display:block;
+	height:20px;
+	width:20px;
+}
+.MsnClose{
+	background-image:url('../images/Email/MSGClose.gif');
+	background-repeat:no-repeat;
+	background-position:right center;
+	display:block;
+	height:20px;
+	width:20px;
+}
+.MsnFor{
+	background-image:url('../images/Email/MSGFor.gif');
+	background-repeat:no-repeat;
+	background-position:right center;
+	display:block;
+	height:20px;
+	width:20px;
+}
+
+.msgPaddingUp{
+	padding-top:3px;
+}
+.msgPaddingR{
+	padding-right:10px;
+}
+.msgPaddingL{
+	padding-left:20px;
+}
+
+a:visited.GreenMenu, a:link.GreenMenu{
+  text-decoration: none;
+  color:#3979ab;
+  text-decoration:none;
+  font-size:12px;
+
+  }
+
+a:hover.GreenMenu{
+  color:#3979ab;
+  text-decoration:underline;
+  	font-size:12px;
+
+
+}
+a:visited.MSGLink, a:link.MSGLink{
+  text-decoration: none;
+  color:#4c4c4c;
+  text-decoration:none;
+  font-size:11px;
+
+  }
+
+a:hover.MSGLink{
+  color:#8b8b8b;
+  text-decoration:none;
+  font-size:11px;
+}
+
+a:visited.RedL, a:link.RedL{
+  color:#e2040e;
+  text-decoration:none;
+  font-size:10px;
+
+  }
+
+a:hover.RedL{
+  color:#8d8d8d;
+  text-decoration:none;
+  font-size:10px;
+}
