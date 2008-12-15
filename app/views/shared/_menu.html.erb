@@ -1,43 +1,56 @@
 <div class="MenuBob autoMargin MainDiv MenuH ClearDiv">
 
-   <div class="FL MenuBord MenuH"></div>
+  <div class="FL MenuBord MenuH"></div>
 
-   <div class="FR MenuBord MenuH"></div>
+  <div class="FR MenuBord MenuH"></div>
 
-   <div class="MenuSpace1 FR MenuH"></div>
+  <div class="MenuSpace1 FR MenuH"></div>
 
-   <div class="FR itemW ">
+  <div class="FR itemW ">
 
-     <a href="#" class="MainMenuLinks ">
+    <a href="#" class="MainMenuLinks">
 
-		<img alt="البريد" src="/images/Menu/emailOff.gif" width="52" height="31" class="valignM domroll
-/images/Menu/emailOn1.gif" /> البريد (256)</a></div>
+      <img alt="البريد" src="/images/Menu/emailOff.gif" width="52" height="31" class="valignM domroll
+       /images/Menu/emailOn1.gif" /> البريد (256)</a></div>
 
-		<div class="FR itemW ">
+  <div class="FR itemW ">
 
-     <a href="#" class="MainMenuLinks ">
+    <a href="#" class="MainMenuLinks">
 
-		<img alt="المحادثة" src="/images/Menu/ChatOff.gif" width="52" height="31" class="valignM domroll
-/images/Menu/ChatOn.gif" /> المحادثة (2)</a></div>
+      <img alt="المحادثة" src="/images/Menu/ChatOff.gif" width="52" height="31" class="valignM domroll
+       /images/Menu/ChatOn.gif" /> المحادثة (2)</a></div>
 
-		<div class="FR itemW ">
+  <% if params[:controller] == 'sms' %>
+    <div class="FR itemW MenLink">
+      <img alt="<%=_(:sms)%>" src="/images/Menu/smsOn.gif" width="52" height="31" class="valignM " /><%=_(:sms)%>
+    </div>
+  <% else %>
+    <div class="FR itemW">
+      <a class="MainMenuLinks" href="/sms">
+        <img alt="<%=_(:sms)%>" src="/images/Menu/smsOff.gif" width="52" height="31" class="valignM domroll
+           /images/Menu/smsOn.gif" /><%=_(:sms)%></a>
+    </div>
+  <% end %>
 
-     <a class="MainMenuLinks " href="/sms">
+  <div class="FR itemW2">
 
-		<img alt="الرسائل النصية" src="/images/Menu/smsOff.gif" width="52" height="31" class="valignM domroll
-/images/Menu/smsOn.gif" /> الرسائل النصية</a></div>
+    <a href="#" class="MainMenuLinks">
 
-		<div class="FR itemW2">
+      <img alt="الرسائل الخاصة" src="/images/Menu/PrivatOff.gif" width="52" height="31" class="valignM
+       domroll /images/Menu/PrivatOn.gif" /> الرسائل الخاصة  (5)</a></div>
 
-     <a href="#" class="MainMenuLinks ">
+  <% if params[:controller] == 'addressbooks' %>
+    <div class="FR itemW MenLink">
+    <img alt="<%=_(:addressbooks)%>" src="/images/Menu/BookOn.gif" width="52" height="31" class="valignM " /><%=_(:addressbooks)%></div>
 
-		<img alt="الرسائل الخاصة" src="/images/Menu/PrivatOff.gif" width="52" height="31" class="valignM
-domroll /images/Menu/PrivatOn.gif" /> الرسائل الخاصة  (5)</a></div>
+  <% else %>
+    <div class="FR itemW">
+      <a class="MainMenuLinks" href="/addressbooks">
+        <img alt="<%=_(:addressbooks)%>" src="/images/Menu/BookOff.gif" width="52" height="31" class="valignM domroll
+           /images/Menu/BookOn.gif" /><%=_(:addressbooks)%></a>
+    </div>
+  <% end %>
 
-		<div class="FR itemW MenLink">
-
-		<img alt="دفتر العناوين" src="/images/Menu/BookOn.gif" width="52" height="31" class="valignM " /> دفتر
-العناوين</div>
 </div>
 
 <div class="autoMargin space1 ClearDiv"></div>

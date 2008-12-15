@@ -2,6 +2,8 @@ mloc_language_code: ar
 # required for a locale localization file
 mloc_country_code: JO
 
+sms: الرسائل النصية
+addressbooks: دفتر العناوين
 send: أرسل
 sent: مرسلة
 scheduled: المجدولة
