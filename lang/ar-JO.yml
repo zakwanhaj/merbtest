@@ -1,0 +1,8 @@
+mloc_language_code: ar
+# required for a locale localization file
+mloc_country_code: JO
+
+send: أرسل
+sent: مرسلة
+scheduled: المجدولة
+change number: تغيير الرقم
