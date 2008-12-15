@@ -5,7 +5,7 @@ module Merb
         <div class="ClearDiv RightMenuBox #{params[:action]==action ? "GrayBGLink" : "WBGLink"}">
         <div class="FR space2"></div>
         <div class="FR SMSSend"></div>
-        <div class="FR MenuItemPadding GreenM">#{params[:action]==action ? value : "<a href='/sms/#{action}' class='GreenMenu'>#{value}</a>"}</div>
+        <div class="FR MenuItemPadding GreenM">#{params[:action]==action ? _(value,:language => 'ar', :country => 'JO') : "<a href='/sms/#{action}' class='GreenMenu'>#{_(value,:language => 'ar', :country => 'JO')}</a>"}</div>
       </div>
       }
     end
